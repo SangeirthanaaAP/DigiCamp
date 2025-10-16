@@ -1,0 +1,30 @@
+﻿using System;
+
+namespace DigiCamp.Models
+{
+    public class SocialAccount
+    {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public string? Platform { get; set; }   // e.g., Facebook, Instagram
+        public string? AccessToken { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
+
+        // Navigation
+        public User? User { get; set; }
+        public ICollection<Post> Posts { get; set; } = new List<Post>();
+    }
+
+    public class Post
+    {
+        public int Id { get; set; }
+        public int SocialAccountId { get; set; }
+        public string Content { get; set; } = string.Empty;
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
+
+        // Navigation
+        public SocialAccount? SocialAccount { get; set; }
+    }
+}
+
+//SELECT * FROM Posts WHERE SocialAccountId NOT IN (SELECT Id FROM SocialAccounts);

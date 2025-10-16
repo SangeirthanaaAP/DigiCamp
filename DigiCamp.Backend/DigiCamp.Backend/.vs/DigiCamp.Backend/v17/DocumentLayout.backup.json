@@ -1,0 +1,476 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20251016100621_FixCascadePaths1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251016100621_FixCascadePaths1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20251016095513_FixCascadePaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251016095513_FixCascadePaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\digicampcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:digicampcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\digicampcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\digicampcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250916184944_fixsocialaccountrestrict.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250916184944_fixsocialaccountrestrict.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250916183432_finalschemafix1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250916183432_finalschemafix1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250916182621_finalschemafix.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250916182621_finalschemafix.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250916120350_fixcascadedelete.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250916120350_fixcascadedelete.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250916115355_updaterelationsfix.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250916115355_updaterelationsfix.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250915203800_finalschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250915203800_finalschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250915203556_fixmodels.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250915203556_fixmodels.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250915200209_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250915200209_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\controllers\\socialaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:controllers\\socialaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\controllers\\campaignscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:controllers\\campaignscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250916120350_fixcascadedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250916120350_fixcascadedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\models\\socialaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:models\\socialaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\models\\analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:models\\analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250915203556_fixmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250915203556_fixmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250915203800_finalschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250915203800_finalschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|d:\\dissertation\\digicamp\\digicamp.backend\\digicamp.backend\\migrations\\20250916115355_updaterelationsfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1557C3-F915-47F1-BD03-6A1FE35C8AFC}|DigiCamp.Backend.csproj|solutionrelative:migrations\\20250916115355_updaterelationsfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:25:19.03Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DigiCampContext.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\DigiCampContext.cs",
+              "RelativeDocumentMoniker": "DigiCampContext.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\DigiCampContext.cs",
+              "RelativeToolTip": "DigiCampContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:36:39.456Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-15T20:49:44.441Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251016100621_FixCascadePaths1.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20251016100621_FixCascadePaths1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251016100621_FixCascadePaths1.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20251016100621_FixCascadePaths1.cs",
+              "RelativeToolTip": "Migrations\\20251016100621_FixCascadePaths1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:06:21.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20251016095513_FixCascadePaths.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20251016095513_FixCascadePaths.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251016095513_FixCascadePaths.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20251016095513_FixCascadePaths.cs",
+              "RelativeToolTip": "Migrations\\20251016095513_FixCascadePaths.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T09:55:13.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:34:09.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250916183432_FinalSchemaFix1.Designer.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916183432_FinalSchemaFix1.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250916183432_FinalSchemaFix1.Designer.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916183432_FinalSchemaFix1.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250916183432_FinalSchemaFix1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:05:54.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Models\\Post.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\Post.cs",
+              "RelativeToolTip": "Models\\Post.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:34:58.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAWwBwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:30:30.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250916184944_FixSocialAccountRestrict.Designer.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916184944_FixSocialAccountRestrict.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250916184944_FixSocialAccountRestrict.Designer.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916184944_FixSocialAccountRestrict.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250916184944_FixSocialAccountRestrict.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:05:59.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DigiCampContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\DigiCampContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\DigiCampContextModelSnapshot.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\DigiCampContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\DigiCampContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:06:04.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250916182621_FinalSchemaFix.Designer.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916182621_FinalSchemaFix.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250916182621_FinalSchemaFix.Designer.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916182621_FinalSchemaFix.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250916182621_FinalSchemaFix.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:05:48.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250916120350_FixCascadeDelete.Designer.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916120350_FixCascadeDelete.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250916120350_FixCascadeDelete.Designer.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916120350_FixCascadeDelete.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250916120350_FixCascadeDelete.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:05:43.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250916115355_UpdateRelationsFix.Designer.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916115355_UpdateRelationsFix.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250916115355_UpdateRelationsFix.Designer.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916115355_UpdateRelationsFix.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250916115355_UpdateRelationsFix.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:05:34.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250915203800_FinalSchema.Designer.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915203800_FinalSchema.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250915203800_FinalSchema.Designer.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915203800_FinalSchema.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250915203800_FinalSchema.Designer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:05:22.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250915203556_FixModels.Designer.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915203556_FixModels.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250915203556_FixModels.Designer.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915203556_FixModels.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250915203556_FixModels.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:05:11.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250915200209_InitialCreate.Designer.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915200209_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250915200209_InitialCreate.Designer.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915200209_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250915200209_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:04:57.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CampaignsController.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\CampaignsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CampaignsController.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\CampaignsController.cs",
+              "RelativeToolTip": "Controllers\\CampaignsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T08:19:28.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Controllers\\PostsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:13:22.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SocialAccountsController.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\SocialAccountsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SocialAccountsController.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\SocialAccountsController.cs",
+              "RelativeToolTip": "Controllers\\SocialAccountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:13:54.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnalyticsController.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:14:24.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250916120350_FixCascadeDelete.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916120350_FixCascadeDelete.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250916120350_FixCascadeDelete.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916120350_FixCascadeDelete.cs",
+              "RelativeToolTip": "Migrations\\20250916120350_FixCascadeDelete.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T18:46:50.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SocialAccount.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\SocialAccount.cs",
+              "RelativeDocumentMoniker": "Models\\SocialAccount.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\SocialAccount.cs",
+              "RelativeToolTip": "Models\\SocialAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:34:33.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Campaign.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\Campaign.cs",
+              "RelativeDocumentMoniker": "Models\\Campaign.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\Campaign.cs",
+              "RelativeToolTip": "Models\\Campaign.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawBEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:34:47.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250916115355_UpdateRelationsFix.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916115355_UpdateRelationsFix.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250916115355_UpdateRelationsFix.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250916115355_UpdateRelationsFix.cs",
+              "RelativeToolTip": "Migrations\\20250916115355_UpdateRelationsFix.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T11:53:55.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Analytics.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\Analytics.cs",
+              "RelativeDocumentMoniker": "Models\\Analytics.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Models\\Analytics.cs",
+              "RelativeToolTip": "Models\\Analytics.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIA1wA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:35:07.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250915203556_FixModels.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915203556_FixModels.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250915203556_FixModels.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915203556_FixModels.cs",
+              "RelativeToolTip": "Migrations\\20250915203556_FixModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:35:56.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250915203800_FinalSchema.cs",
+              "DocumentMoniker": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915203800_FinalSchema.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250915203800_FinalSchema.cs",
+              "ToolTip": "D:\\Dissertation\\DigiCamp\\DigiCamp.Backend\\DigiCamp.Backend\\Migrations\\20250915203800_FinalSchema.cs",
+              "RelativeToolTip": "Migrations\\20250915203800_FinalSchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:38:00.681Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

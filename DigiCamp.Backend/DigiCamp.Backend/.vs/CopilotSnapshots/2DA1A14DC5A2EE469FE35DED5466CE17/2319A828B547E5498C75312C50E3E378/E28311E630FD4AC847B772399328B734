@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace DigiCamp.Models
+{
+    public class User
+    {
+        public int Id { get; set; }
+        public string? FullName { get; set; }
+        public string? Email { get; set; }
+        public string? Username { get; set; }
+        public string? PasswordHash { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
+
+        // Navigation properties
+        public ICollection<SocialAccount> SocialAccounts { get; set; } = new List<SocialAccount>();
+        public ICollection<Campaign> Campaigns { get; set; } = new List<Campaign>();
+    }
+}
+// Compare this snippet from Models/Post.cs:
