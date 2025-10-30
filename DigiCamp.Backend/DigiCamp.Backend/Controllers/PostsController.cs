@@ -20,7 +20,6 @@ namespace DigiCamp.Controllers
             _context = context;
         }
 
-        // GET: api/posts
         [HttpGet]
         public async Task<IActionResult> GetUserPosts()
         {
@@ -34,7 +33,6 @@ namespace DigiCamp.Controllers
             return Ok(posts);
         }
 
-        // GET: api/posts/{id}
         [HttpGet("{id}")]
         public async Task<IActionResult> GetPost(int id)
         {
@@ -49,7 +47,6 @@ namespace DigiCamp.Controllers
             return Ok(post);
         }
 
-        // GET: api/posts/all
         [HttpGet("all")]
         public IActionResult GetPosts()
         {
@@ -67,11 +64,21 @@ namespace DigiCamp.Controllers
             return Ok(posts);
         }
 
-        // POST: api/posts
+        [HttpGet("user/{userId}")]
+        public IActionResult GetPostsByUser(int userId)
+        {
+            var posts = _context.Posts
+                .Include(p => p.Campaign)
+                .Include(p => p.SocialAccount)
+                .Where(p => p.Campaign != null && p.Campaign.UserId == userId)
+                .ToList();
+
+            return Ok(posts);
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreatePost([FromBody] Post dto)
         {
-            // basic validation
             var campaign = await _context.Campaigns.FindAsync(dto.CampaignId);
             if (campaign == null) return BadRequest("Campaign not found.");
             if (campaign.UserId != GetUserIdFromClaims()) return Forbid();
@@ -95,7 +102,6 @@ namespace DigiCamp.Controllers
             return CreatedAtAction(nameof(GetPost), new { id = post.Id }, post);
         }
 
-        // PUT: api/posts/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdatePost(int id, [FromBody] Post updated)
         {
@@ -103,12 +109,10 @@ namespace DigiCamp.Controllers
             if (post == null) return NotFound();
             if (post.Campaign == null || post.Campaign.UserId != GetUserIdFromClaims()) return Forbid();
 
-            // allow update of content, scheduled time, status and socialAccount
             post.Content = updated.Content ?? post.Content;
             post.ScheduledAt = updated.ScheduledAt;
             post.Status = updated.Status ?? post.Status;
 
-            // change social account if requested
             if (updated.SocialAccountId != 0 && updated.SocialAccountId != post.SocialAccountId)
             {
                 var social = await _context.SocialAccounts.FindAsync(updated.SocialAccountId);
@@ -121,7 +125,6 @@ namespace DigiCamp.Controllers
             return Ok(post);
         }
 
-        // DELETE: api/posts/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePost(int id)
         {

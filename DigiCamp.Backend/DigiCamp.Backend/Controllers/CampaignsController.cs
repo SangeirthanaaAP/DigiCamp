@@ -3,6 +3,7 @@ using DigiCamp.DTOs;
 using DigiCamp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 [Authorize]
@@ -30,6 +31,45 @@ public class CampaignsController : ControllerBase
 
         return Ok(campaigns);
     }
+
+    [HttpGet("{id}")]
+    public IActionResult GetCampaignDetails(int id)
+    {
+        var campaign = _context.Campaigns
+            .Include(c => c.Posts)
+            .ThenInclude(p => p.Analytics)
+            .FirstOrDefault(c => c.Id == id);
+
+        if (campaign == null) return NotFound();
+
+        var result = new
+        {
+            campaign.Id,
+            campaign.Title,
+            campaign.Description,
+            campaign.StartDate,
+            campaign.EndDate,
+            campaign.Status,
+            campaign.UserId,
+            Posts = campaign.Posts.Select(p => new {
+                p.Id,
+                p.Content,
+                p.ScheduledAt,
+                p.Status,
+                Analytics = p.Analytics == null ? null : new
+                {
+                    p.Analytics.Impressions,
+                    p.Analytics.Clicks,
+                    p.Analytics.EngagementRate,
+                    p.Analytics.Date
+                }
+            })
+        };
+
+        return Ok(result);
+    }
+
+
 
     [HttpPost]
     public IActionResult CreateCampaign([FromBody] CampaignDto dto)
